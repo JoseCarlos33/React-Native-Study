@@ -3,7 +3,10 @@ import React from 'react';
 import { View } from 'react-native';
 import styles from './components/styles'
 
-import InputNome from './components/Input'
+import MegaSena from './components/componenteComClasse/MegaSena'
+import FlexBoxV2 from './components/layout/FlexBoxV2'
+// import FlexBoxV1 from './components/layout/FlexBoxV1'
+// import InputNome from './components/Input'
 // import ListaProd2 from './components/listaProdutos/listaProdutosV2'
 // import ListaProd from './components/listaProdutos/listaProdutos'
 // import Familia from './components/relacao/Familia'
@@ -18,7 +21,10 @@ import InputNome from './components/Input'
 export default function App() {
   return (
     <View style={styles.container}>
-      <InputNome/>
+      <MegaSena />
+      {/* <FlexBoxV2/> */}
+      {/* <FlexBoxV1/> */}
+      {/* <InputNome/> */}
       {/* <ListaProd2 />  */}
       {/* <ListaProd /> */}
       {/* <Familia>
